@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width">
+        <title>Calculadora IMC</title>
+
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/index.css">
+
+    </head>
+    <body>
+        
+        <header class="cabecalho">
+            <label><input type="checkbox" name="dm" id="dark-mode">Modo noturno</label>
+            <nav class="navbar">
+                <ul>
+                    <li class="topico"><a href="#inicio">Inicio</a></li>
+                    <li class="topico"><a href="#imc">IMC</a></li>
+                    <li class="topico"><a href="#calc">Calculadora</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="artigo">
+            <section>
+                <h1 class="titulo" id="inicio"> Sobre a aplicação </h1>
+
+            </section>
+
+            <section>
+                <h1 class="titulo" id="imc"> O que é IMC? </h1>
+
+            </section>
+
+            <section>                
+                <h1 class="titulo"  id="calc">Calculadora</h1>
+                <form class="calculadora">
+                    <input type="number" class="campo-valores" name="altura" placeholder="Altura em metros" step="0.01" required>
+                    <input type="number" class="campo-valores" name="peso" placeholder="Peso em Kg" step="0.001" required>
+                    <button class="calc">Calcular</button>
+                </form>
+
+                
+            </section>
+        </main>
+
+        <footer class="rodape">
+            &copy
+        </footer>
+
+    </body>
+</html>
