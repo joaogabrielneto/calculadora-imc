@@ -88,3 +88,7 @@ body{
     background: var(--table-td-color);
 }
 
+.destaque{
+    background: #ff5400;
+    font-weight: bold;
+}
