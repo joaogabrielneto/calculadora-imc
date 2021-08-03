@@ -18,19 +18,19 @@
             //destaca abaixo do peso
             const  linhaTabela = document.querySelector('[data-abaixo]');
             linhaTabela.classList.add("destaque");
-        } else if (18.6 <= imc <= 24.9) {
+        } else if (imc <= 24.9) {
             //destaca peso ideal
             const  linhaTabela = document.querySelector('[data-ideal]');
             linhaTabela.classList.add("destaque");
-        } else if (25 <= imc <= 29.9 ){
+        } else if (imc <= 29.9 ){
             //destaca  acima do peso
             const  linhaTabela = document.querySelector('[data-acima]');
             linhaTabela.classList.add("destaque");
-        } else if (30 <= imc <= 34.9) {
+        } else if (imc <= 34.9) {
             //destaca obesidade i
             const  linhaTabela = document.querySelector('[data-obesidade-i]');
             linhaTabela.classList.add("destaque");
-        } else if (35 <= imc <= 39.9){
+        } else if (imc <= 39.9){
             //destaca obesidade ii
             const  linhaTabela = document.querySelector('[data-obesidade-ii]');
             linhaTabela.classList.add("destaque");
