@@ -6,9 +6,10 @@ O foco objetivo deste projeto é desenvolver uma calculadora IMC com uso de Java
 
  - Adquirir valores de peso e altura
  - Calcular IMC
+ - Destacar intervalo e classificação na tabela
 
 ## DOING
- - [x] Destacar intervalo e classificação na tabela
+ - Nada novo por enquanto
 
 ## TO DO
  - Nada novo por enquanto
