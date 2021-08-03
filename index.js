@@ -10,9 +10,6 @@
 
         const imc = peso/(altura*altura)
 
-        const valorImc = document.querySelector('[data-valor-imc]')
-        valorImc.innerHTML = imc.toFixed(2)
-
         if (imc <= 18.5){
             const  linhaTabela = document.querySelector('[data-abaixo]');
             linhaTabela.classList.add("destaque");
@@ -29,9 +26,12 @@
             const  linhaTabela = document.querySelector('[data-obesidade-ii]');
             linhaTabela.classList.add("destaque");
         } else {
-            const  linhaTabela = document.querySelector('[data-ob]');
+            const  linhaTabela = document.querySelector('[data-obesidade-iii]');
             linhaTabela.classList.add("destaque");
         }
+
+        const valorImc = document.querySelector('[data-valor-imc]')
+        valorImc.innerHTML = imc.toFixed(2)        
     }
 
     const botaoCalcular = document.querySelector('[data-form-button]')
